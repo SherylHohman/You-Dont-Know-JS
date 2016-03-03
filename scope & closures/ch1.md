@@ -193,8 +193,22 @@ var c = foo( 2 );
 ```
 
 1. Identify all the LHS look-ups (there are 3!).
+```js
+	// SH Answers
+	1. c
+	2. b
+	3. a 
+```
 
 2. Identify all the RHS look-ups (there are 4!).
+```js
+	// SH Answers
+	1. a
+	2. b
+	3. foo
+	4. 2 or (a + b) ?? return value of foo ??
+```
+
 
 **Note:** See the chapter review for the quiz answers!
 
